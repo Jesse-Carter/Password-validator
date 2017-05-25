@@ -22,5 +22,20 @@ public class ExampleUnitTest extends passwordValidator {
         assertFalse(check_rule2("a"));
         assertTrue(check_rule2("abcdefgh"));
     }
+    @Test
+    public void validate_rule3() throws Exception {
+        assertTrue(check_rule3("ABCdef"));
+    }
+
+    @Test
+    public void validate_rule4() throws Exception {
+        assertTrue(check_rule4("#@#$@"));
+    }
+
+    @Test
+    public void validate_rule5() throws Exception {
+        assertTrue(check_rule5("1abcd"));
+        assertFalse(check_rule5(("abcd")));
+    }
 
 }
