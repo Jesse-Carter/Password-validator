@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Password-validator</string>
+    <string name="inputText">Enter Password Here!</string>
+    <string name="mainButton">OK</string>
+    <string name="outputText">Your password strength is...</string>
 </resources>
